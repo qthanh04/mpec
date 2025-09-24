@@ -1,0 +1,68 @@
+{
+  "input":[
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/bao_cao/bao_cao/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/bao_cao/excel_file/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/ca_lam_viec/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/chinh_sach_dieu_khoan/chinh_sach/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/chinh_sach_dieu_khoan/dieu_khoan/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/chuc_vu_vai_tro/chuc_vu/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/chuc_vu_vai_tro/vai_tro/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/cong_ty/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/don_vi/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/hoa_don/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/khach_hang/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/nguoi_dung/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/nha_cung_cap/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/nhan_vien/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/nhom_hang/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/phieu_nhap_hang/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/phieu_tra_hang_nhap/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/phieu_tra_khach/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/phong_ban/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/quyen/"
+    },
+
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/thuong_hieu/"
+    }
+  ]
+}

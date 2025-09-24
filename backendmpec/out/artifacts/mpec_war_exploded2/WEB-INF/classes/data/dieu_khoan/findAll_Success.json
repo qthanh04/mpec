@@ -1,0 +1,26 @@
+{
+  "test_unit": "public/dieu-khoan/find-all-to-page",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "noiDung": "dieu khoan 1",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 1
+      }
+    }
+  ]
+}

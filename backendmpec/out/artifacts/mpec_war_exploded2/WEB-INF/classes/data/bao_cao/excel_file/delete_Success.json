@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/excel-file/find-by-id",
+  "case":"delete",
+  "input":[
+    {
+      "index":"104"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

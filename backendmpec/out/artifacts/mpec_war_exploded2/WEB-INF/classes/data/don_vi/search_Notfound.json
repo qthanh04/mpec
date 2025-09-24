@@ -1,0 +1,25 @@
+{
+  "test_unit":"search-text",
+  "case":"not found",
+  "input":[
+    {
+      "text": "m",
+      "page":"1",
+      "size": "10"
+    },
+    {
+      "text": "z",
+      "page":"1",
+      "size": "10"
+    }
+  ],
+
+  "output":
+    {
+      "message": "not found",
+      "data": "DonVi not existed"
+    }
+
+}
+
+

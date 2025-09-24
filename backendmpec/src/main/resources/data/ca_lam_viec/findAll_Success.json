@@ -1,0 +1,32 @@
+{
+  "test_unit": "admin/ca-lam-viec/find-all",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "ten": "21h-23h",
+            "checkIn": null,
+            "checkOut": null,
+            "choPhepCheckIn": null,
+            "choPhepCheckOut": null,
+            "soLuongNhanVienToiDa": 2,
+            "status": null,
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "test_unit": "admin/chi-nhanh/find-all",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "maChiNhanh": "DD-01",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Đống Đa",
+            "diaChiIp": "192.168.1.13",
+            "trangThaiKetNoi": 1,
+            "trangThaiHoatDong": 1,
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "maChiNhanh": "TX-93",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Thanh Xuân",
+            "diaChiIp": "192.168.1.15",
+            "trangThaiKetNoi": 1,
+            "trangThaiHoatDong": 1,
+            "xoa": false
+          },
+          {
+            "id": 6,
+            "maChiNhanh": "CNN36",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Nam Cao",
+            "diaChiIp": "192.168.2.3",
+            "trangThaiKetNoi": 1,
+            "trangThaiHoatDong": 1,
+            "xoa": false
+          },
+          {
+            "id": 7,
+            "maChiNhanh": "CNX - 90",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Xã Đàn",
+            "diaChiIp": "192.168.1.1",
+            "trangThaiKetNoi": 1,
+            "trangThaiHoatDong": 1,
+            "xoa": false
+          },
+          {
+            "id": 8,
+            "maChiNhanh": "CNX - 2",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Xã Đàn",
+            "diaChiIp": "192.168.5.6",
+            "trangThaiKetNoi": 1,
+            "trangThaiHoatDong": 1,
+            "xoa": false
+          },
+          {
+            "id": 9,
+            "maChiNhanh": "CNĐ - 14",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Đống Đa",
+            "diaChiIp": "192.168.5.6",
+            "trangThaiKetNoi": 1,
+            "trangThaiHoatDong": 1,
+            "xoa": false
+          },
+          {
+            "id": 10,
+            "maChiNhanh": "CNN - 14",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Nam Cao",
+            "diaChiIp": "192.168.1.3",
+            "trangThaiKetNoi": 1,
+            "trangThaiHoatDong": 1,
+            "xoa": false
+          },
+          {
+            "id": 12,
+            "maChiNhanh": "CNN - 76",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Nam Từ Liêm",
+            "diaChiIp": "192.168.1.3",
+            "trangThaiKetNoi": 0,
+            "trangThaiHoatDong": 1,
+            "xoa": true
+          },
+          {
+            "id": 13,
+            "maChiNhanh": "CNN - 65",
+            "tongCongTy": {
+              "id": 1,
+              "maDoanhNghiep": "DN-00001",
+              "diaChi": "Bách Khoa, Hà Nội",
+              "email": "bk@gmail.com",
+              "soDienThoai": "0966027102",
+              "website": "www.kiotmpec.cloud",
+              "nguoiDaiDien": "Nguyễn Đức Quý",
+              "tenDoanhNghiep": "MPEC",
+              "tenTiengAnh": "MPEC",
+              "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+              "xoa": false
+            },
+            "diaChi": "Nam Từ Liêm",
+            "diaChiIp": "192.168.1.3",
+            "trangThaiKetNoi": 0,
+            "trangThaiHoatDong": 1,
+            "xoa": true
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 9
+      }
+    }
+  ]
+}

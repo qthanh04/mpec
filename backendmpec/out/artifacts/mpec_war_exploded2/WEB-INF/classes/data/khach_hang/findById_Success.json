@@ -1,0 +1,31 @@
+{
+  "test_unit":"admin/khach-hang/find-by-id",
+  "case":"found",
+  "input":[
+    {
+      "index":"1"
+    }
+  ],
+
+  "output":[
+    {
+      "message": "found",
+      "data": {
+        "id": 1,
+        "taiKhoan": null,
+        "tenKhachHang": "Hiệp",
+        "dienThoai": "0963658964",
+        "thoiGian": null,
+        "loaiKhach": "Bình thường",
+        "ngaySinh": "2004-06-10",
+        "gioiTinh": null,
+        "email": "a@gmail.com",
+        "facebook": "Không có",
+        "ghiChu": "Không có",
+        "trangThai": 1,
+        "diaChi": "Đống Đa",
+        "xoa": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+.paginationjs li a{
+    padding: unset;
+}
+
+.help-block {
+    text-align: left !important;
+    padding: unset !important;
+    margin-bottom: unset;
+    background: none !important;
+    border: none !important;
+    font-size: 12px !important;
+    opacity: 0;
+}
+
+.form-group {
+    margin-bottom: unset;
+    padding-bottom: unset !important;
+}
+
+.form-group.has-error .help-block {
+    opacity: 1;
+}
+
+.form-group.has-error .select2-selection {
+    border: solid #a94442 1px !important;
+}
+
+.text-red {
+    color: red;
+}
+
+.buifmaoptb {
+    position: relative;
+}
+
+.page-link {
+    bottom: 16px;
+    right: 16px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.page-link a {
+    color: rgb(255, 204, 0);
+}
+
+.page-link a i{
+    font-size: 35px;
+}
+
+.caiopf1i3 input {
+    margin-bottom: 5px !important;
+}
+
+.list-none {
+    list-style: none;
+}
+
+list-decimal {
+    list-style: decimal;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.color-blue {
+    color: #3c8dbc;
+}
+
+.mgtb-20 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.border-gray {
+    border: 1px solid rgb(161,161,161) !important;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.datepicker.dropdown-menu {
+    z-index: 1031 !important;
+}
+
+.carousel img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.owl-nav button {
+    font-size: 30px !important;
+}
+
+#title-dia-ban {
+    text-transform: uppercase;
+}
+
+#title-ngay {
+    text-transform: uppercase;
+}
+
+.cmroptct {
+    margin-top: 20px;
+}
+
+i.active-sort {
+    color: #3c8dbc;
+}
+
+.size-view.active-type {
+    color: #3c8dbc;
+}
+
+.hover-pointer {
+    cursor: pointer;
+}
+
+.vertical-top {
+    vertical-align: top;
+}
+
+@media print {
+    a[href]:after {
+        display: none;
+        visibility: hidden;
+    }
+    th {
+        border: 1px solid #000!important;
+    }
+}
+
+.alert {
+    z-index: 10000 !important;
+}
+
+.notiright span {
+    padding-left: 10px;
+    color: #5bc0de;
+}
+
+.aiimg iframe {
+    width: 100%;
+    object-fit: cover;
+}
+.aiimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.view-mid {}
+
+.view-mid i {
+    display: block;
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.view-gach-ngang {
+    display: flex;
+    align-items: center;
+}
+
+.view-gach-ngang label {
+    width: 110px;
+}
+
+.view-gach-ngang hr {
+    width: 100%;
+}
+
+.select2 {
+    width:100%!important;
+}
+
+.fa-plus {
+    cursor: pointer;
+}
+
+.fa-trash-alt {
+    cursor: pointer;
+}
+
+/*error*/
+.help-block {
+    text-align: left !important;
+    padding: unset !important;
+    margin-bottom: unset;
+    background: none !important;
+    border: none !important;
+    font-size: 12px !important;
+    opacity: 0;
+}
+
+.form-group {
+    margin-bottom: unset;
+    padding-bottom: unset !important;
+}
+
+.form-group.has-error .help-block {
+    opacity: 1;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.hang-hoa-phieu-nhap .img-hang-hoa-phieu-nhap {
+    width: 70px;
+    height: 55px;
+    object-fit: cover;
+}
+
+.hang-hoa-phieu-nhap .ten-hang-hoa {}
+
+.select2-selection {
+    line-height: 24px!important;
+}

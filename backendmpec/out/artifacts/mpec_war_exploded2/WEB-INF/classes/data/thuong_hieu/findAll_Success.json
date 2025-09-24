@@ -1,0 +1,71 @@
+{
+  "test_unit": "admin/thuong-hieu/find-all",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 2,
+            "tenThuongHieu": "Coca",
+            "xoa": false
+          },
+          {
+            "id": 3,
+            "tenThuongHieu": "Poca",
+            "xoa": false
+          },
+          {
+            "id": 4,
+            "tenThuongHieu": "Omachi",
+            "xoa": false
+          },
+          {
+            "id": 5,
+            "tenThuongHieu": "Vinamilk",
+            "xoa": false
+          },
+          {
+            "id": 6,
+            "tenThuongHieu": "Simply",
+            "xoa": false
+          },
+          {
+            "id": 7,
+            "tenThuongHieu": "AFC",
+            "xoa": false
+          },
+          {
+            "id": 8,
+            "tenThuongHieu": "Hảo Hảo",
+            "xoa": false
+          },
+          {
+            "id": 9,
+            "tenThuongHieu": "Neptune",
+            "xoa": false
+          },
+          {
+            "id": 12,
+            "tenThuongHieu": "Chocopie",
+            "xoa": false
+          },
+          {
+            "id": 13,
+            "tenThuongHieu": "Pepsi",
+            "xoa": false
+          }
+        ],
+        "totalPages": 4,
+        "totalElements": 38
+      }
+    }
+  ]
+}

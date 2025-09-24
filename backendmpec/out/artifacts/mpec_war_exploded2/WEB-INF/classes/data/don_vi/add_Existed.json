@@ -1,0 +1,29 @@
+{
+  "test_unit":"upload",
+  "case":"existed",
+  "input":[
+    {
+      "tenDonVi": "test10",
+      "xoa": false
+    },
+    {
+      "tenDonVi": "test11",
+      "xoa": false
+    },
+    {
+      "tenDonVi": "test12",
+      "xoa": false
+    }
+  ],
+
+  "output":
+
+  {
+    "message": "existed",
+    "data": "DonVi đã tồn tại, Vui lòng chọn tên khác"
+  }
+
+
+}
+
+

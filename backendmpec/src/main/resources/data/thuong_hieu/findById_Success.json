@@ -1,0 +1,20 @@
+{
+  "test_unit":"admin/thuong-hieu/find-by-id",
+  "case":"found",
+  "input":[
+    {
+      "index":"4"
+    }
+  ],
+
+  "output":[
+    {
+      "message":"found",
+      "data":{
+        "id": 4,
+        "tenThuongHieu": "Omachi",
+        "xoa": false
+      }
+    }
+  ]
+}

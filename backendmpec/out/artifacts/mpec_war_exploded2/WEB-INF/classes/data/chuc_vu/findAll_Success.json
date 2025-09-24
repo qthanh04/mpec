@@ -1,0 +1,41 @@
+{
+  "test_unit": "admin/chuc-vu/find-all-to-page",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "tenChucVu": "Quản lý",
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "tenChucVu": "Bảo vệ",
+            "xoa": false
+          },
+          {
+            "id": 3,
+            "tenChucVu": "Thu Ngân",
+            "xoa": false
+          },
+          {
+            "id": 5,
+            "tenChucVu": "Nhân viên kho ",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "test_unit": "admin/nha-cung-cap/find-all",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "ten": "BK",
+            "diaChi": "Bách Khoa",
+            "dienThoai": "01234567",
+            "email": "bk@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "tongNo": null,
+            "tongMua": null,
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "ten": "MPEC",
+            "diaChi": "C9-407",
+            "dienThoai": "0123123213",
+            "email": "mpec@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "tongNo": null,
+            "tongMua": null,
+            "xoa": false
+          },
+          {
+            "id": 3,
+            "ten": "Nguyễn Hoàng Hiệp",
+            "diaChi": "Đống Đa",
+            "dienThoai": "0966027102",
+            "email": "hiep@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "tongNo": 0,
+            "tongMua": 0,
+            "xoa": false
+          },
+          {
+            "id": 4,
+            "ten": "Nhà máy sữa milo",
+            "diaChi": "Hà Nội",
+            "dienThoai": "012345678",
+            "email": "sua@gmail.com",
+            "facebook": "",
+            "ghiChu": "",
+            "trangThai": 1,
+            "tongNo": 0,
+            "tongMua": 0,
+            "xoa": false
+          },
+          {
+            "id": 5,
+            "ten": "Nhà máy sữa milo",
+            "diaChi": "Hà Nội",
+            "dienThoai": "0868970605",
+            "email": "sua@gmail.com",
+            "facebook": "",
+            "ghiChu": "",
+            "trangThai": null,
+            "tongNo": null,
+            "tongMua": null,
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 5
+      }
+    }
+  ]
+}

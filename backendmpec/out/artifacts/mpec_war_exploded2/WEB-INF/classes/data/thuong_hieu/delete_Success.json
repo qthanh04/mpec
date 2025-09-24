@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/thuong-hieu/delete",
+  "case":"delete",
+  "input":[
+    {
+      "index":"46"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

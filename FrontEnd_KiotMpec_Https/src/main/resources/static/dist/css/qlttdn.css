@@ -1,0 +1,322 @@
+.buifmaopct{
+    margin-top: 20px;
+}
+.buifmaopcti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.buifmaopcti:nth-child(2){
+    align-items: flex-end;
+}
+.buifmaopcti button{
+    margin-top: 30px;
+}
+.buifmaopcti1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.buifmaopcti1 label{
+    min-width: 120px;
+}
+.buifmaopcti1 input{
+    min-width: 185px ;
+}
+.buifmaopcti1 input{
+    border: 1px solid rgb(161,161,161);
+    border-radius: 4px;
+    padding: 3px;
+    min-width: 200px;
+}
+.buifmaoptb{
+    margin-top: 30px;
+    box-shadow: -2px 0px 5px #888;
+}
+.buifmaoptb table tbody tr th{
+    background-color: #b1bcae;
+    color: white;
+}
+
+.buifmaoptb table tbody tr td{
+    border-bottom: 0px solid rgb(161,161,161);
+}
+.buifmaoptb table tbody tr td a{
+    text-decoration: underline;
+}
+.buifmaopcti.tt2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+
+.caifop{
+    margin-top: 30px;
+}
+.caifop1l,.caifop1r{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.caifop1li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.caifop1li label{
+    padding-bottom: 3px;
+}
+.caifop1li label span{
+    color: red;
+}
+.caifop1li input{
+    width: 100%;
+    padding: 3px;
+    border-radius: 3px;
+    outline: 0!important;
+    border-width: 0 0 2px!important;
+    border-color: #b1bcae!important;
+    background: transparent;
+}
+
+input:focus {
+    border-color: #BCACBC!important;
+}
+.caiopf1i1,.caiopf1i2,.caiopf1i3{
+    margin-top: 15px;
+}
+.caifopi1{
+    display: flex;
+    justify-content: space-between;
+}
+.caiopf1i1{
+    display: flex;
+    justify-content: flex-start;
+}
+.caiopf1i1 label{
+    padding-right: 10px;
+}
+.caiopf1i2{
+    display: flex;
+}
+.caiopf1i2rb{
+    padding-left: 10px;
+}
+.i2rbwp{
+    display: flex;
+    align-items: center;
+}
+.i2rbwp label, .i2rbwp input{
+    margin: 0 !important;
+}
+.i2rbwp label{
+    padding-left: 5px;
+    font-weight: 500;
+}
+.caiopf1i3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.caiopf1i3 input{
+    padding: 3px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(161,161,161);
+    border-radius: 3px;
+}
+.div-wp{
+    width: 100%;
+    min-height: 513px;
+    border: 1px solid rgb(161,161,161);
+}
+.div-wp img{
+    width: 100%;
+}
+.caifbtwp{
+    padding: 10px;
+}
+.caifbtwp button:nth-child(2){
+    margin-left: 20px;
+}
+.etpinfop{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.etpinfop input{
+    padding: 3px;
+    border: 1px solid rgb(161,161,161);
+    border-radius: 3px;
+}
+.etpinfopm{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.etpinfopm input{
+    padding: 3px;
+    border: 1px solid rgb(161,161,161);
+    border-radius: 3px;
+}
+.etpinfopi1{
+    display: flex;
+    flex-direction: column;
+}
+.etpinfopi2 label{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.etpinfopi2{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    align-items: flex-end;
+}
+.etpinfopti{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.etpinfopi1ot{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.etpinfopi1ot input{
+    padding: 3px;
+    border: 1px solid rgb(161,161,161);
+    border-radius: 3px;
+}
+.etpinfopi3{
+    display: flex;
+    align-items: flex-end;
+}
+.etpinfopi3 label{
+    margin-bottom: 0;
+    padding-right: 20px;
+    /* margin-top: 35px; */
+}
+.etpinfop.sp{
+    position: relative;
+    padding-bottom: 6px;
+}
+.eptplusi{
+    position: absolute;
+    right:1px;
+    top: 29px;
+}
+.eptplusi i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.eptplustable{
+    position: absolute;
+    right: -1px;
+    top: 25px;
+    z-index: 100;
+    background-color: #fff;
+    border: 1px solid rgb(161,161,161);
+    padding: 20px 30px;
+}
+.eptplustb-title span{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    display: block;
+}
+.eptplustb-bt{
+    display: flex;
+    justify-content: flex-end;
+}
+.eptplustb-bt button{
+    margin-left: 10px;
+}
+.eptplustb-ct table tbody tr th{
+    white-space: nowrap;
+    background-color: #3c8dbc;
+    color: white;
+    padding: 10px 30px;
+}
+.etptab{
+    padding: 10px;
+    margin-top: 30px;
+}
+.etptab-title{
+    display: flex;
+    border-bottom: 1px solid rgb(161,161,161);
+}
+.etptab-title span{
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid rgb(161,161,161);
+    border-bottom: none;
+    margin-right: 5px;
+    transform: translateY(1px);
+    background-color: #ecf0f5;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 2px;
+}
+.etptab-title span:hover{
+    background-color: #3c8dbc;
+    color: white
+}
+.etptab-title span:nth-child(1){
+    background-color: #3c8dbc;
+    color: white;
+}
+.etptab-content{
+    padding: 20px;
+    border: 1px solid rgb(161,161,161);
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.etptab-content table tbody tr th{
+    background-color: #a7bbbc;
+    color: white;
+
+}
+.etptab-content table tbody tr td{
+    border-bottom: 1px solid rgb(161,161,161);
+}
+.buifmaoptitle{
+    margin-bottom: 30px;
+}
+
+.select2-container--default .select2-selection--single {
+    background: transparent;
+    outline: 0!important;
+    border-width: 0 0 2px!important;
+    border-color: #b1bcae!important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-top: 8px!important;
+}
+
+select {
+    background: transparent;
+    outline: 0!important;
+    border-width: 0 0 2px!important;
+    border-color: #b1bcae!important;
+}
+
+.form-control{
+    background-color: transparent!important;
+}
+
+.fab, .far {
+    font-weight: 900!important;
+}
+
+

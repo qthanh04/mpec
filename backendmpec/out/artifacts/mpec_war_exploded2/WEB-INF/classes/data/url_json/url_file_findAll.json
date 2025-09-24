@@ -1,0 +1,71 @@
+
+{
+  "input":[
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/bao_cao/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/ca_lam_viec/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/chi_nhanh/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/chinh_sach/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/chuc_vu/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/cong_ty/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/dieu_khoan/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/don_vi/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/excel_file/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/hoa_don/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/hang_hoa/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/khach_hang/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/nha_cung_cap/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/nhan_vien/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/nhom_hang/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/phieu_tra_hang_nhap/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/phieu_tra_khach/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/phong_ban/"
+    },
+    {
+        "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/tai_khoan/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/thong_bao/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/thuong_hieu/"
+    },
+    {
+      "model": "D:/DoAn_MPEC_Lab/7-4-2021/BackEnd_KiotMpec/BackEnd/src/main/resources/data/vai_tro/"
+    }
+  ]
+}

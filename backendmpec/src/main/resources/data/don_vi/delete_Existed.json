@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/don-vi/delete",
+  "case":"existed",
+  "input":[
+    {
+      "index":"1000"
+    }
+  ],
+
+  "output":{
+    "message": "not found",
+    "data": "id is not exist"
+  }
+}

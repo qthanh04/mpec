@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/chuc-vu/delete",
+  "case":"delete",
+  "input":[
+    {
+      "index":"5"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

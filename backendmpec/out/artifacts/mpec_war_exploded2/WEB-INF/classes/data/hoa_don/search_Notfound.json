@@ -1,0 +1,30 @@
+{
+  "test_unit":"search",
+  "case":"not found",
+  "input":[
+    {
+      "chi-nhanh-id": "10",
+      "ngay-dau": "1970-01-01T00:00:00+00:00",
+      "ngay-cuoi": "9999-12-31T00:00:00+00:00",
+      "ten-khach-hang": "z",
+      "trang-thai": "1",
+      "page": "1",
+      "size": "10"
+    },
+    {
+      "chi-nhanh-id": "100",
+      "ngay-dau": "1970-01-01T00:00:00+00:00",
+      "ngay-cuoi": "9999-12-31T00:00:00+00:00",
+      "trang-thai": "10",
+      "page": "1",
+      "size": "10"
+    }
+  ],
+
+  "output":
+  {
+    "message": "not found",
+    "data": "HoaDon/MaHoaDon/ThoiGian/TrangThai not existed"
+  }
+
+}

@@ -1,0 +1,70 @@
+{
+  "test_unit":"search-text",
+  "case":"found",
+  "input":[
+    {
+      "text": "h",
+      "page":"1",
+      "size": "10"
+    },
+    {
+      "text": "v",
+      "page":"1",
+      "size": "10"
+    }
+  ],
+
+  "output":[
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "tenDonVi": "Hộp",
+            "xoa": false
+          },
+          {
+            "id": 3,
+            "tenDonVi": "Thùng",
+            "xoa": false
+          },
+          {
+            "id": 7,
+            "tenDonVi": "Bịch",
+            "xoa": false
+          },
+          {
+            "id": 9,
+            "tenDonVi": "Chai 10l",
+            "xoa": false
+          },
+          {
+            "id": 14,
+            "tenDonVi": "Chai 650l",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 5
+      }
+    },
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 2,
+            "tenDonVi": "Vỉ",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 1
+      }
+    }
+
+  ]
+}
+
+

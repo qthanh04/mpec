@@ -1,0 +1,51 @@
+{
+  "test_unit":"upload",
+  "case":"success",
+  "input":[
+    {
+      "maNhomHang": "test22",
+      "tenNhomHang": "test22",
+      "xoa": false
+    },
+    {
+      "maNhomHang": "test23",
+      "tenNhomHang": "test23",
+      "xoa": false
+    },
+    {
+      "maNhomHang": "test24",
+      "tenNhomHang": "test24",
+      "xoa": false
+    }
+  ],
+
+  "output":[
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 22,
+        "tenNhomHang": "test22",
+        "maNhomHang": "test22",
+        "xoa": false
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 23,
+        "tenNhomHang": "test23",
+        "maNhomHang": "test23",
+        "xoa": false
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 24,
+        "tenNhomHang": "test24",
+        "maNhomHang": "test24",
+        "xoa": false
+      }
+    }
+  ]
+}

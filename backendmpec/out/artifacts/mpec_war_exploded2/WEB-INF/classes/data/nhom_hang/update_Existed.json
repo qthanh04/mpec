@@ -1,0 +1,31 @@
+{
+  "test_unit":"update",
+  "case":"existed",
+  "input":[
+    {
+      "id": 0,
+      "maNhomHang": "string",
+      "tenNhomHang": "string",
+      "xoa": true
+    },
+    {
+      "id": 0,
+      "maNhomHang": "string",
+      "tenNhomHang": "string",
+      "xoa": true
+    },
+    {
+      "id": 0,
+      "maNhomHang": "string",
+      "tenNhomHang": "string",
+      "xoa": true
+    }
+  ],
+
+  "output":[
+    {
+      "message": "not found",
+      "data": "NhomHang is not exist"
+    }
+  ]
+}

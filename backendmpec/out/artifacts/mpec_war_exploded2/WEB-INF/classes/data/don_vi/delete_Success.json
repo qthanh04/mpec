@@ -1,0 +1,16 @@
+{
+  "test_unit":"admin/don-vi/delete",
+  "case":"delete",
+  "input":[
+    {
+      "index":"31"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}
+
+

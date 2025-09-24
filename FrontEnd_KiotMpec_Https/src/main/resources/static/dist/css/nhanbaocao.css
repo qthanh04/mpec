@@ -1,0 +1,204 @@
+.receiverp-title{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.receive-content{
+
+}
+.recctitem1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0 0;
+    flex-wrap: wrap;
+}
+.recctitem1.lasi{
+    margin-bottom: 30px;
+}
+.recctipi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.recctipi.lin2 {
+    width: 100%;
+    justify-content: flex-start;
+}
+.recctipi.lin2 input{
+    width: 100%;
+}
+.recctitem1 input{
+    line-height: 1;
+    padding: 3px;
+    min-width: 150px;
+    border: 1px solid rgb(161,161,161);
+    border-radius: 3px;
+}
+.recctipi label{
+    min-width: 100px;
+}
+.receivetb table tbody tr th{
+    background-color: #3c8dbc;
+    color: white;
+}
+.receivetb table tbody tr td{
+    border-bottom: 1px solid rgb(161,161,161);
+}
+.receivetb table tbody tr td a{
+    text-decoration: underline;
+}
+.receivepagi{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.receivepagi ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+.receivepagi ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(161,161,161);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.receivepagi ul li:hover{
+    background-color: #3c8dbc;
+    color: white;
+}
+.receivepagi ul li:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.receivepagi ul li:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.rctabctfct{
+    margin-top: 30px;
+}
+.dtcmrctitem{
+    padding: 10px;
+    font-size: 15px;
+}
+.retabctsct{
+    margin-top: 20px;
+    border-top: none;
+    padding-bottom: 30px;
+}
+.retabctsctct{
+    padding: 20px ;
+    border: 1px solid rgb(161,161,161);
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.retabctsct-title{
+    display: flex;
+    border-bottom: 1px solid rgb(161,161,161);
+}
+.retabctsct-title span{
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid rgb(161,161,161);
+    border-bottom: none;
+    margin-right: 5px;
+    transform: translateY(1px);
+    background-color: #ecf0f5;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 2px;
+}
+.bgw1{
+    background-color: #ecf0f5 !important;
+    color: black !important;
+}
+.retabctsct-title span:hover, .bg3c{
+    background-color: #3c8dbc !important;
+    color: white !important;
+}
+.retabctsct-title span:nth-child(1){
+    background-color: #3c8dbc ;
+    color: white;
+}
+.retabctsct table tbody tr th{
+    background-color: #3c8dbc;
+    color: white;
+}
+.retabctsct table tbody tr td{
+    border-bottom: 1px solid rgb(161,161,161);
+}
+.retabctsct table tbody tr td a{
+    text-decoration: underline;
+}
+.retabctsct-table span{
+    font-weight: 600;
+}
+.retabctsct-form span{
+    font-weight: 900;
+}
+.retabctsct-form .rtsctfitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.retabctsct-form .rtsctfitem input, .retabctsct-form .rtsctfitem textarea{
+    padding: 5px;
+    width: 70%;
+    border: 1px solid rgb(161,161,161);
+    border-radius: 3px;
+}
+.retabctsct-form .rtsctfitem textarea{
+    min-height: 150px;
+}
+@media (max-width:767px){
+    .retabctsct-form .rtsctfitem input, .retabctsct-form .rtsctfitem textarea {
+        width: 100%;
+    }
+}
+
+tbody i {
+    margin: 0px 2px;
+}
+
+tbody .tdk {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.tdk i {
+    font-size:  16px;
+}
+
+.tep-dinh-kem-ngang {
+    list-style: none;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.tep-dinh-kem-ngang li {
+    margin-top: 5px;
+}
+
+.tep-dinh-kem-ngang li a {
+    color: unset;
+}
+
+.tep-dinh-kem-ngang li i{
+    font-size: 16px;
+}

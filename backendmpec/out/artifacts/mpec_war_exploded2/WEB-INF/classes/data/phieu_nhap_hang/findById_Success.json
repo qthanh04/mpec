@@ -1,0 +1,61 @@
+{
+  "test_unit":"admin/phieu-nhap-hang/find-by-id",
+  "case":"found",
+  "input":[
+    {
+      "index":"24"
+    }
+  ],
+
+  "output":[
+    {
+      "message": "found",
+      "data": {
+        "id": 24,
+        "maPhieu": "PN-0008393",
+        "thoiGian": "2020-07-09T08:54:27.000+0000",
+        "tongTien": 9650000,
+        "tienDaTra": 9650000,
+        "tienPhaiTra": 0,
+        "ghiChu": "",
+        "trangThai": 3,
+        "nhaCungCap": {
+          "id": 3,
+          "ten": "Nguyễn Hoàng Hiệp",
+          "diaChi": "Đống Đa",
+          "dienThoai": "0966027102",
+          "email": "hiep@gmail.com",
+          "facebook": "Không có",
+          "ghiChu": "Không có",
+          "trangThai": 1,
+          "tongNo": 0,
+          "tongMua": 0,
+          "xoa": false
+        },
+        "nguoiDung": {
+          "id": 2,
+          "maTaiKhoan": "NV-00002",
+          "hoVaTen": "Nguyễn Đức Quý",
+          "taiKhoan": "quy",
+          "matKhau": "quy123456",
+          "email": "quy@gmail.com",
+          "soDienThoai": "0123456789",
+          "diaChi": "Bách Khoa",
+          "ngaySinh": "2002-07-13",
+          "gioiTinh": 1,
+          "thoiGianKhoiTao": "2020-06-01",
+          "thoiGianKichHoat": "2020-06-10",
+          "thoiGianHetHan": null,
+          "trangThai": 0,
+          "facebook": "https://www.facebook.com/quyhust",
+          "batDauLamViec": "2020-06-20",
+          "thoiGianHopDong": null,
+          "mucLuong": null,
+          "urlAnhDaiDien": null,
+          "xoa": false
+        },
+        "xoa": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input":[
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/bao_cao/thuong_hieu/"
+    },
+    {
+      "model": "D:/MPEC_LAB_DA3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/bao_cao/don_vi/"
+    }
+  ]
+}

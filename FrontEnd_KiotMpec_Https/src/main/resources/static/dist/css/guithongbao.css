@@ -1,0 +1,127 @@
+.senot-title{
+
+}
+.senot-title span{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.choosecom{
+    border: 1px solid rgb(161,161,161);
+    padding-top: 0;
+    margin-top: 30px;
+    border-top: none;
+    min-height: 450px;
+}
+.chocom-title{
+    background-color: #3c8dbc;
+    padding: 10px;
+}
+.chocom-title span{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.chocom-content{
+    padding: 10px;
+}
+.com{
+    padding-top:15px;
+}
+.cmp{
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    display:flex;
+    justify-content: center !important;
+    align-items: center;
+    border: 1px solid rgb(161,161,161);
+    cursor: pointer;
+    margin-right: 15px;
+}
+.com1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.com1 input{
+    margin-right: 10px;
+    margin-top: 0;
+}
+.com2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 0 50px;
+}
+.com2 input{
+    margin-right: 10px;
+    margin-top: 0;
+}
+.com1 span, .com2 span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.senot-form{
+    margin-top: 30px;
+}
+.snf-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.snf-item input, .snf-item textarea{
+    width: 100%;
+    padding: 5px;
+}
+.snf-item textarea{
+    min-height: 150px;
+}
+.snf-item.inpf{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.snf-item.inpf input{
+    display: inline-block;
+}
+label{
+    margin-bottom: 0;
+}
+.snf-item.inpf label{
+    white-space: nowrap;
+    padding-right: 20px;
+}
+.snf-item.htg, .snf-item.lit{
+    flex-direction: row;
+}
+.snf-item.htg label, .snf-item.lit label{
+    min-width: 130px;
+}
+.snf-item.htg label{
+
+}
+
+.mtinfi{
+    display: flex;
+    align-items: center;
+}
+.mtinfi input{
+    width: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+}
+.mtinfi label{
+    white-space: nowrap;
+    min-width: 130px;
+}
+.snf-item.lit{
+    flex-direction: row;
+}
+.senot-form .btn {
+    margin-top: 30px;
+}
+.list-name{
+    list-style-type: none;
+}

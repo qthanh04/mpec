@@ -1,0 +1,34 @@
+{
+  "test_unit":"admin/chi-nhanh/find-by-id",
+  "case":"found",
+  "input":[
+    {
+      "index":"1"
+    }
+  ],
+
+  "output":[
+    {
+      "id": 1,
+      "maChiNhanh": "DD-01",
+      "tongCongTy": {
+        "id": 1,
+        "maDoanhNghiep": "DN-00001",
+        "diaChi": "Bách Khoa, Hà Nội",
+        "email": "bk@gmail.com",
+        "soDienThoai": "0966027102",
+        "website": "www.kiotmpec.cloud",
+        "nguoiDaiDien": "Nguyễn Đức Quý",
+        "tenDoanhNghiep": "MPEC",
+        "tenTiengAnh": "MPEC",
+        "logo": "https://mpec.s3.us-east-2.amazonaws.com/bk.jpg",
+        "xoa": false
+      },
+      "diaChi": "Đống Đa",
+      "diaChiIp": "192.168.1.13",
+      "trangThaiKetNoi": 1,
+      "trangThaiHoatDong": 1,
+      "xoa": false
+    }
+  ]
+}

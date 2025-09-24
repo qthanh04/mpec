@@ -1,0 +1,28 @@
+{
+  "test_unit":"update",
+  "case":"existed",
+  "input":[
+    {
+      "id": 100,
+      "tenThuongHieu": "test10",
+      "xoa": false
+    },
+    {
+      "id": 101,
+      "tenThuongHieu": "test11",
+      "xoa": false
+    },
+    {
+      "id": 102,
+      "tenThuongHieu": "test12",
+      "xoa": false
+    }
+  ],
+
+  "output":[
+    {
+      "message": "not found",
+      "data": "ThuongHieu is not exist"
+    }
+  ]
+}

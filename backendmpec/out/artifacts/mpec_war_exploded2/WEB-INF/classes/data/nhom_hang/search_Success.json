@@ -1,0 +1,58 @@
+{
+  "test_unit":"search-text",
+  "case":"found",
+  "input":[
+    {
+      "text": "h",
+      "page":"1",
+      "size": "10",
+      "text": "h"
+    },
+    {
+      "text": "h",
+      "page":"1",
+      "size": "10",
+      "text": "t"
+    }
+  ],
+
+  "output":[
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 14,
+            "tenNhomHang": "Sữa Hà Lan",
+            "maNhomHang": "SHL",
+            "xoa": false
+          },
+          {
+            "id": 15,
+            "tenNhomHang": "Sữa Thái Lan ",
+            "maNhomHang": "SHL12",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 2
+      }
+    },
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 15,
+            "tenNhomHang": "Sữa Thái Lan ",
+            "maNhomHang": "SHL12",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 1
+      }
+    }
+
+  ]
+}

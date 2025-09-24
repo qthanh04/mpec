@@ -1,0 +1,181 @@
+{
+  "test_unit": "admin/khach-hang/find-all",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "taiKhoan": null,
+            "tenKhachHang": "Hiệp",
+            "dienThoai": "0963658964",
+            "thoiGian": null,
+            "loaiKhach": "Bình thường",
+            "ngaySinh": "2004-06-10",
+            "gioiTinh": null,
+            "email": "a@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "diaChi": "Đống Đa",
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "taiKhoan": null,
+            "tenKhachHang": "Bách Khoa",
+            "dienThoai": "011111111",
+            "thoiGian": null,
+            "loaiKhach": "Bình thường",
+            "ngaySinh": "2020-06-26",
+            "gioiTinh": null,
+            "email": "bk@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "diaChi": "Bách Khoa",
+            "xoa": false
+          },
+          {
+            "id": 11,
+            "taiKhoan": "",
+            "tenKhachHang": "Nguyễn Hoàng Hiệp",
+            "dienThoai": "123123131",
+            "thoiGian": null,
+            "loaiKhach": "Bình thường",
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "nguyenhoanghiep132@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "diaChi": "Hà Nội",
+            "xoa": false
+          },
+          {
+            "id": 13,
+            "taiKhoan": "",
+            "tenKhachHang": "Quý",
+            "dienThoai": "0123456789",
+            "thoiGian": null,
+            "loaiKhach": "Bình thường",
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "quy@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "diaChi": "Bách Khoa",
+            "xoa": false
+          },
+          {
+            "id": 14,
+            "taiKhoan": "",
+            "tenKhachHang": "Hoàng Hiệp",
+            "dienThoai": "012398761",
+            "thoiGian": null,
+            "loaiKhach": "Bình thường",
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "hoanghiep@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "diaChi": "Tây Sơn",
+            "xoa": false
+          },
+          {
+            "id": 18,
+            "taiKhoan": null,
+            "tenKhachHang": "Hiệp",
+            "dienThoai": "0868970606",
+            "thoiGian": null,
+            "loaiKhach": null,
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "a@gmail.com",
+            "facebook": "Không có",
+            "ghiChu": "Không có",
+            "trangThai": 1,
+            "diaChi": "Đống Đa",
+            "xoa": false
+          },
+          {
+            "id": 21,
+            "taiKhoan": "",
+            "tenKhachHang": "Vũ Đăng Chiến",
+            "dienThoai": "",
+            "thoiGian": "2021-03-31T09:17:37.000+0000",
+            "loaiKhach": "Normal",
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "chien123@gmail.com",
+            "facebook": "",
+            "ghiChu": "",
+            "trangThai": 1,
+            "diaChi": "Hà Nội",
+            "xoa": false
+          },
+          {
+            "id": 22,
+            "taiKhoan": "",
+            "tenKhachHang": "Tuấn",
+            "dienThoai": "0977314353",
+            "thoiGian": "2021-04-08T07:00:50.000+0000",
+            "loaiKhach": "Normal",
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "nguyenducquy.hust@gmail.com",
+            "facebook": "",
+            "ghiChu": "",
+            "trangThai": 1,
+            "diaChi": "Hoàng Mai",
+            "xoa": false
+          },
+          {
+            "id": 23,
+            "taiKhoan": "",
+            "tenKhachHang": "Dũng",
+            "dienThoai": "03548888484",
+            "thoiGian": "2021-04-08T07:10:11.000+0000",
+            "loaiKhach": "Normal",
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "nguyenducquy.hust@gmail.com",
+            "facebook": "",
+            "ghiChu": "",
+            "trangThai": 1,
+            "diaChi": "Giáp Bát",
+            "xoa": false
+          },
+          {
+            "id": 24,
+            "taiKhoan": "",
+            "tenKhachHang": "Tài",
+            "dienThoai": "0354841488",
+            "thoiGian": "2021-04-08T07:41:32.000+0000",
+            "loaiKhach": "Normal",
+            "ngaySinh": null,
+            "gioiTinh": null,
+            "email": "phamtutai1407@gmail.com",
+            "facebook": "",
+            "ghiChu": "",
+            "trangThai": 1,
+            "diaChi": "Ngõ Trại Cá",
+            "xoa": false
+          }
+        ],
+        "totalPages": 2,
+        "totalElements": 14
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "test_unit": "update",
+  "case": "success",
+  "input": [
+    {
+      "id": 0,
+      "maNhomHang": "string",
+      "tenNhomHang": "string",
+      "xoa": true
+    },
+    {
+      "id": 0,
+      "maNhomHang": "string",
+      "tenNhomHang": "string",
+      "xoa": true
+    },
+    {
+      "id": 0,
+      "maNhomHang": "string",
+      "tenNhomHang": "string",
+      "xoa": true
+    }
+  ],
+  "output": [
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 0,
+        "maNhomHang": "string",
+        "tenNhomHang": "string",
+        "xoa": true
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 0,
+        "maNhomHang": "string",
+        "tenNhomHang": "string",
+        "xoa": true
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 0,
+        "maNhomHang": "string",
+        "tenNhomHang": "string",
+        "xoa": true
+      }
+    }
+  ]
+}

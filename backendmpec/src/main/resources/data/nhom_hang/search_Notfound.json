@@ -1,0 +1,25 @@
+{
+  "test_unit":"search-text",
+  "case":"not found",
+  "input":[
+    {
+      "text": "i",
+      "page":"1",
+      "size": "10",
+      "text": "j"
+    },
+    {
+      "text": "a",
+      "page":"1",
+      "size": "10",
+      "text": "j"
+    }
+  ],
+
+  "output":
+  {
+    "message": "not found",
+    "data": "TenNhomHang/Search not existed"
+  }
+
+}

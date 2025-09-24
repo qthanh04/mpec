@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/nhom-hang/delete",
+  "case":"delete",
+  "input":[
+    {
+      "index":"27"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

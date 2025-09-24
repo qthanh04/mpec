@@ -1,0 +1,138 @@
+.cmroptitle span{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.cmroptitem1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cmroptitem1 input{
+    line-height: 1;
+    padding: 2px 3px;
+    border-radius: 3px;
+    border: 1px solid rgb(161, 161, 161);
+    min-width: 167px;
+}
+.cmroptitem2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.lable1{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.lable1:nth-child(2){
+    justify-content: space-between;
+}
+.cmroptitem2 button{
+    margin-left: 20px;
+}
+.label2{
+    width: 80%;
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.cmroptct label{
+    min-width: 120px;
+}
+.cmrimg {
+    padding: 10px;
+    margin-top: 50px;
+    border: 1px solid rgb(161, 161, 161);
+}
+.cmrimgs{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.cmrimgs span{
+    display: block;
+    padding-left: 10px;
+}
+.cmrimgalli{
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cmr-img{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(201, 201, 201);
+}
+.cmr-img img{
+    width: 100%;
+}
+.detailcamera{
+    font-size: 15px;
+}
+.dtcmrtitle {
+    padding:10px 0 10px 0 ;
+}
+.dtcmrtitle span{
+    text-transform: uppercase;
+}
+.dtcmrcontent{
+
+}
+.dtcmrctitem{
+    padding: 5px;
+}
+.dtcmrctitem span{
+
+}
+.dtcmrimgitem{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.dtcmrimgitem img{
+    /* margin: 0 30px; */
+    width: 100%;
+}
+.dtcmrimgitem i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.cmrimgallc{
+    padding-bottom: 40px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+}
+.cmrimgallcitem{
+    padding: 30px;
+}
+.cmrimgallcitem iframe{
+    width: 100%;
+    min-height: 300px;
+}
+.cmroptitem{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cmroptitem .cmrbt{
+
+}
+
+.view-camera {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 30px;
+}
+
+.label3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

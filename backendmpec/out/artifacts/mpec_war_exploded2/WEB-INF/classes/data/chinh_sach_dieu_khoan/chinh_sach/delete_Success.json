@@ -1,0 +1,14 @@
+{
+  "test_unit":"public/chinh-sach/delete",
+  "case":"delete",
+  "input":[
+    {
+      "index":"1"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "orderId": "orderId",
+  "note": "note",
+  "required_note": "required_note",
+  "return_phone": "return_phone",
+  "return_address": "return_address",
+  "return_province": "return_province",
+  "return_district": "return_district_id",
+  "return_ward": "return_ward_code",
+  "to_name": "to_name",
+  "to_phone": "to_phone",
+  "to_address": "to_address",
+  "to_province": "to_province",
+  "to_ward": "to_ward_code",
+  "to_district": "to_district_id",
+  "cod_amount": "cod_amount",
+  "weight": "weight",
+  "height": "height",
+  "quantity": "quantity",
+  "service_type_id": "service_type_id",
+  "payment_type_id": "payment_type_id"
+}

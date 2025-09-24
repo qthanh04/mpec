@@ -1,0 +1,80 @@
+{
+  "test_unit":"admin/bao-cao/find-by-id",
+  "case":"found",
+  "input":[
+    {
+      "index":"1"
+    }
+  ],
+
+  "output":[
+    {
+      "message": "found",
+      "data": {
+        "id": 1,
+        "tieuDe": "test",
+        "noiDung": "abc",
+        "thoiGianTao": "2021-03-26T07:38:46.000+0000",
+        "nguoiDung": {
+          "id": 1,
+          "maTaiKhoan": "NV-00001",
+          "hoVaTen": "Nguyễn Hoàng Hiệp",
+          "taiKhoan": "hiep",
+          "matKhau": "943cf209045c1d7de76447e82285f0afbe36d29b963daecdbe6fcdf55e899060",
+          "email": "hiep@gmail.com",
+          "soDienThoai": "0123456789",
+          "diaChi": "Đống Đa",
+          "ngaySinh": "1999-02-13",
+          "gioiTinh": 1,
+          "thoiGianKhoiTao": "2020-06-01",
+          "thoiGianKichHoat": "2020-06-15",
+          "thoiGianHetHan": null,
+          "trangThai": 0,
+          "facebook": "https://www.facebook.com/hoanghiep132/",
+          "batDauLamViec": "2020-06-25",
+          "thoiGianHopDong": null,
+          "mucLuong": null,
+          "urlAnhDaiDien": null,
+          "xoa": false
+        },
+        "thongBao": {
+          "id": 1,
+          "tieuDe": "test",
+          "noiDung": "thong bao",
+          "hinhThucGui": 1,
+          "thoiGianGui": "2021-03-26T07:38:46.000+0000",
+          "daNhanPhanHoi": true,
+          "yeuCauPhanHoi": true,
+          "soLuongDonViNhan": 1,
+          "thongBaoNguoiNhan": [
+            {
+              "id": 1,
+              "maTaiKhoan": "NV-00001",
+              "hoVaTen": "Nguyễn Hoàng Hiệp",
+              "taiKhoan": "hiep",
+              "matKhau": "943cf209045c1d7de76447e82285f0afbe36d29b963daecdbe6fcdf55e899060",
+              "email": "hiep@gmail.com",
+              "soDienThoai": "0123456789",
+              "diaChi": "Đống Đa",
+              "ngaySinh": "1999-02-13",
+              "gioiTinh": 1,
+              "thoiGianKhoiTao": "2020-06-01",
+              "thoiGianKichHoat": "2020-06-15",
+              "thoiGianHetHan": null,
+              "trangThai": 0,
+              "facebook": "https://www.facebook.com/hoanghiep132/",
+              "batDauLamViec": "2020-06-25",
+              "thoiGianHopDong": null,
+              "mucLuong": null,
+              "urlAnhDaiDien": null,
+              "xoa": false
+            }
+          ],
+          "xoa": false
+        },
+        "listTaiLieuDinhKem": [],
+        "xoa": false
+      }
+    }
+  ]
+}

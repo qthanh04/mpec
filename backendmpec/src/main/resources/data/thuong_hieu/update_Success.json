@@ -1,0 +1,36 @@
+{
+  "test_unit":"update",
+  "case":"success",
+  "input":[
+    {
+      "id": 41,
+      "tenThuongHieu": "test40",
+      "xoa": false
+    },
+    {
+      "id": 42,
+      "tenThuongHieu": "test50",
+      "xoa": false
+    }
+
+  ],
+
+  "output":[
+    {
+      "message": "updated",
+      "data": {
+        "id": 41,
+        "tenThuongHieu": "test40",
+        "xoa": false
+      }
+    },
+    {
+      "message": "updated",
+      "data": {
+        "id": 42,
+        "tenThuongHieu": "test50",
+        "xoa": false
+      }
+    }
+  ]
+}

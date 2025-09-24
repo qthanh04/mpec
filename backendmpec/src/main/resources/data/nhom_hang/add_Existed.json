@@ -1,0 +1,27 @@
+{
+  "test_unit":"upload",
+  "case":"existed",
+  "input":[
+    {
+      "tenNhomHang": "Gạo",
+      "maNhomHang": "G",
+      "xoa": false
+    },
+    {
+      "tenNhomHang": "Bánh",
+      "maNhomHang": "B",
+      "xoa": false
+    },
+    {
+      "tenNhomHang": "Dầu ăn",
+      "maNhomHang": "DA",
+      "xoa": false
+    }
+  ],
+
+  "output":
+  {
+    "message": "existed",
+    "data": "Mã nhóm hàng đã tồn tại, Vui lòng chọn tên khác"
+  }
+}

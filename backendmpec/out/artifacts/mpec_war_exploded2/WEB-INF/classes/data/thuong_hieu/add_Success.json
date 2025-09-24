@@ -1,0 +1,45 @@
+{
+  "test_unit":"upload",
+  "case":"success",
+  "input":[
+    {
+      "tenThuongHieu": "test10",
+      "xoa": false
+    },
+    {
+      "tenThuongHieu": "test11",
+      "xoa": false
+    },
+    {
+      "tenThuongHieu": "test12",
+      "xoa": false
+    }
+  ],
+
+  "output":[
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 41,
+        "tenThuongHieu": "test10",
+        "xoa": false
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 42,
+        "tenThuongHieu": "test11",
+        "xoa": false
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 43,
+        "tenThuongHieu": "test12",
+        "xoa": false
+      }
+    }
+  ]
+}

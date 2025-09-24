@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/bao-cao/find-by-id",
+  "case":"delete",
+  "input":[
+    {
+      "index":"1"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

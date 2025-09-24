@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-main: rgb(102, 102, 102);
+    --font-main: "Segoe UI";
+    --color-opan: rgb(153, 153, 153);
+}
+
+html, body {
+    font-family: var(--font-main);
+}
+
+.select2 {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.select2-selection {
+    height: 38px!important;
+    line-height: 38px!important;
+    border: 1px solid #ced4da!important;
+}
+
+.custom-file-label::after {
+    content: "Tệp";
+}
+
+.select2-selection__arrow {
+    height: 38px!important;
+}
+
+label {
+    font-weight: unset!important;
+}
+
+.table-responsive {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.table-responsive tr {
+    cursor: pointer;
+}
+
+.alert {
+    z-index: 10000 !important;
+}
+
+.align-middle th{
+    vertical-align: middle !important;
+}
+
+.align-middle td{
+    vertical-align: middle !important;
+}
+
+thead.color-main {
+    background: var(--color-main);
+    color: white;
+}
+
+.color-opan {
+    color: var(--color-opan);
+}
+
+.nicEdit-main {
+    background: white;
+}
+
+.custom-file-label::after {
+    content: "Tệp";
+}

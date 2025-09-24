@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/khach-hang/delete",
+  "case":"delete",
+  "input":[
+    {
+      "index":"104"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

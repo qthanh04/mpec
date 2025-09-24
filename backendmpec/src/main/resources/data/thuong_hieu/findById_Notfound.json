@@ -1,0 +1,15 @@
+{
+  "test_unit":"admin/thuong-hieu/find-by-id",
+  "case":"not found",
+  "input":[
+    {
+      "index":"1000"
+    }
+  ],
+
+  "output":
+  {
+    "message": "not found",
+    "data": "id is not exist"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "order": {
+    "orderId": "id",
+    "note": "note",
+    "required_note": "required_note",
+    "return_phone": "pick_tel",
+    "return_address": {
+      "name": "pick_address",
+      "type": true,
+      "required": true
+    },
+    "return_province": "pick_province",
+    "return_district": "pick_district",
+    "return_ward": "pick_ward",
+    "return_name": "pick_name",
+    "return_email": "pick_email",
+    "to_name": "name",
+    "to_phone": "tel",
+    "to_address": "address",
+    "to_province": "province",
+    "to_ward": "ward",
+    "to_district": "district",
+    "cod_amount": "pick_money",
+    "hamlet": "hamlet",
+    "to_email": "email",
+    "to_street": "street",
+    "name": "return_name",
+    "address": "return_address",
+    "province": "return_province",
+    "district": "return_district",
+    "tel": "return_tel",
+    "email": "return_email"
+  }
+}
+
+
+

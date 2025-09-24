@@ -1,0 +1,36 @@
+{
+  "test_unit": "public/chinh-sach/find-all-to-page",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "noiDung": "chinh sach",
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "noiDung": "chinh sach 2",
+            "xoa": false
+          },
+          {
+            "id": 4,
+            "noiDung": "chinh sach 4",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 3
+      }
+    }
+  ]
+}

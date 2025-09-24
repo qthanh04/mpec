@@ -1,0 +1,48 @@
+{
+  "test_unit":"update",
+  "case":"success",
+  "input":[
+    {
+      "id": 1,
+      "tenDonVi": "test10",
+      "xoa": false
+    },
+    {
+      "id": 2,
+      "tenDonVi": "test11",
+      "xoa": false
+    },
+    {
+      "id": 3,
+      "tenDonVi": "test12",
+      "xoa": false
+    }
+  ],
+
+  "output":[
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 1,
+        "tenDonVi": "test10",
+        "xoa": false
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 2,
+        "tenDonVi": "test11",
+        "xoa": false
+      }
+    },
+    {
+      "message": "uploaded",
+      "data": {
+        "id": 3,
+        "tenDonVi": "test12",
+        "xoa": false
+      }
+    }
+  ]
+}

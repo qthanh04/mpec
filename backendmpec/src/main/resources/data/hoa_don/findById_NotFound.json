@@ -1,0 +1,16 @@
+{
+
+  "test_unit":"admin/hoa-don/find-by-id",
+  "case":"not found",
+  "input":[
+    {
+      "index":"1000"
+    }
+  ],
+
+  "output":
+  {
+    "message": "not found",
+    "data": "id is not exist"
+  }
+}

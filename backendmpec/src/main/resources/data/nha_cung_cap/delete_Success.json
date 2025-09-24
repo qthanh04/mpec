@@ -1,0 +1,14 @@
+{
+  "test_unit":"admin/nha-cung-cap/delete",
+  "case":"delete",
+  "input":[
+    {
+      "index":"104"
+    }
+  ],
+
+  "output":{
+    "message": "deleted",
+    "data": "deleted"
+  }
+}

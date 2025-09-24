@@ -1,0 +1,81 @@
+{
+  "test_unit": "admin/phong-ban/find-all-to-page",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "tenPhongBan": "Kho",
+            "maPhongBan": "K-01",
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "tenPhongBan": "Thu ngân",
+            "maPhongBan": "TN-01",
+            "xoa": false
+          },
+          {
+            "id": 3,
+            "tenPhongBan": "Vận chuyển",
+            "maPhongBan": "VC-01",
+            "xoa": false
+          },
+          {
+            "id": 4,
+            "tenPhongBan": "Bảo vệ",
+            "maPhongBan": "BV-01",
+            "xoa": false
+          },
+          {
+            "id": 5,
+            "tenPhongBan": "Hành chính",
+            "maPhongBan": "HC-01",
+            "xoa": false
+          },
+          {
+            "id": 6,
+            "tenPhongBan": "Lao Công",
+            "maPhongBan": "LC_01",
+            "xoa": false
+          },
+          {
+            "id": 8,
+            "tenPhongBan": "Kế Toán ",
+            "maPhongBan": "KT-01",
+            "xoa": false
+          },
+          {
+            "id": 9,
+            "tenPhongBan": "Giám Sát",
+            "maPhongBan": "GT_01",
+            "xoa": false
+          },
+          {
+            "id": 10,
+            "tenPhongBan": "Thu Ngân 2",
+            "maPhongBan": "TN-02",
+            "xoa": false
+          },
+          {
+            "id": 17,
+            "tenPhongBan": "Thu Ngân 4",
+            "maPhongBan": "TN-04",
+            "xoa": false
+          }
+        ],
+        "totalPages": 2,
+        "totalElements": 12
+      }
+    }
+  ]
+}

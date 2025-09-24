@@ -1,0 +1,31 @@
+{
+  "test_unit": "admin/vai-tro/find-all-to-page",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "tenVaiTro": "Nhân viên",
+            "xoa": false
+          },
+          {
+            "id": 5,
+            "tenVaiTro": "Quản lý",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 2
+      }
+    }
+  ]
+}

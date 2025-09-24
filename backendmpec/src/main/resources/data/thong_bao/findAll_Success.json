@@ -1,0 +1,33 @@
+{
+  "test_unit": "admin/thong-bao/find-all",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "tieuDe": "test",
+            "noiDung": "thong bao",
+            "hinhThucGui": 1,
+            "thoiGianGui": "2021-03-26T07:38:46.000+0000",
+            "daNhanPhanHoi": true,
+            "yeuCauPhanHoi": true,
+            "soLuongDonViNhan": 1,
+            "thongBaoNguoiNhan": [],
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 1
+      }
+    }
+  ]
+}

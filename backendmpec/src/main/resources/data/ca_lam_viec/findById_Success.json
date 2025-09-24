@@ -1,0 +1,26 @@
+{
+  "test_unit":"admin/ca-lam-viec/find-by-id",
+  "case":"found",
+  "input":[
+    {
+      "index":"1"
+    }
+  ],
+
+  "output":[
+    {
+      "message":"found",
+      "data":{
+        "id": 1,
+        "ten": "21h-23h",
+        "checkIn": null,
+        "checkOut": null,
+        "choPhepCheckIn": null,
+        "choPhepCheckOut": null,
+        "soLuongNhanVienToiDa": 2,
+        "status": null,
+        "xoa": false
+      }
+    }
+  ]
+}

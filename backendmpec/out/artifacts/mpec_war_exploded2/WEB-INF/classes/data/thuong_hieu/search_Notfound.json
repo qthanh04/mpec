@@ -1,0 +1,23 @@
+{
+  "test_unit":"search-text",
+  "case":"not found",
+  "input":[
+    {
+      "text": "j",
+      "page":"1",
+      "size": "10"
+    },
+    {
+      "text": "z",
+      "page":"1",
+      "size": "10"
+    }
+  ],
+
+  "output":
+  {
+    "message": "not found",
+    "data": "TenThuongHieu/Search not existed"
+  }
+
+}

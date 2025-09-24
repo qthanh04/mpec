@@ -1,0 +1,82 @@
+{
+  "test_unit":"admin/nhom-hang/find-all",
+  "case":"found",
+  "input":[
+    {
+      "page":"1",
+      "size": "10"
+    }
+  ],
+
+  "output":[
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "tenNhomHang": "Sữa",
+            "maNhomHang": "SA",
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "tenNhomHang": "Nước Ngọt",
+            "maNhomHang": "NCP",
+            "xoa": false
+          },
+          {
+            "id": 3,
+            "tenNhomHang": "Bim Bim",
+            "maNhomHang": "BB",
+            "xoa": false
+          },
+          {
+            "id": 4,
+            "tenNhomHang": "Mì tôm",
+            "maNhomHang": "Mi",
+            "xoa": false
+          },
+          {
+            "id": 5,
+            "tenNhomHang": "Dầu ăn",
+            "maNhomHang": "DA",
+            "xoa": false
+          },
+          {
+            "id": 6,
+            "tenNhomHang": "Bánh",
+            "maNhomHang": "B",
+            "xoa": false
+          },
+          {
+            "id": 7,
+            "tenNhomHang": "Gạo",
+            "maNhomHang": "G",
+            "xoa": false
+          },
+          {
+            "id": 9,
+            "tenNhomHang": "Kem",
+            "maNhomHang": "KM",
+            "xoa": false
+          },
+          {
+            "id": 11,
+            "tenNhomHang": "Bánh mì",
+            "maNhomHang": "BM",
+            "xoa": false
+          },
+          {
+            "id": 12,
+            "tenNhomHang": "Kẹo ngọt",
+            "maNhomHang": "KN",
+            "xoa": false
+          }
+        ],
+        "totalPages": 2,
+        "totalElements": 19
+      }
+    }
+  ]
+}

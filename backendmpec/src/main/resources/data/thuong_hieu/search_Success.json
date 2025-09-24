@@ -1,0 +1,73 @@
+{
+  "test_unit":"search-text",
+  "case":"found",
+  "input":[
+    {
+      "text": "h",
+      "page":"1",
+      "size": "10"
+    },
+    {
+      "text": "v",
+      "page":"1",
+      "size": "10"
+    }
+  ],
+
+  "output":[
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 4,
+            "tenThuongHieu": "Omachi",
+            "xoa": false
+          },
+          {
+            "id": 8,
+            "tenThuongHieu": "Hảo Hảo",
+            "xoa": false
+          },
+          {
+            "id": 12,
+            "tenThuongHieu": "Chocopie",
+            "xoa": false
+          },
+          {
+            "id": 18,
+            "tenThuongHieu": "Cô Gái Hà Lan",
+            "xoa": false
+          },
+          {
+            "id": 37,
+            "tenThuongHieu": "Mộc Châu",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 5
+      }
+    },
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 5,
+            "tenThuongHieu": "Vinamilk",
+            "xoa": false
+          },
+          {
+            "id": 15,
+            "tenThuongHieu": "Vila",
+            "xoa": false
+          }
+        ],
+        "totalPages": 1,
+        "totalElements": 2
+      }
+    }
+
+  ]
+}

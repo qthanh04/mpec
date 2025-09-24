@@ -1,0 +1,271 @@
+{
+  "test_unit": "admin/hang-hoa/find-all",
+  "case": "found",
+  "input": [
+    {
+      "page": "1",
+      "size": "10"
+    }
+  ],
+  "output": [
+    {
+      "message": "found",
+      "data": {
+        "currentElements": [
+          {
+            "id": 1,
+            "ma": "SS-8283",
+            "tenHangHoa": "Sữa Milo",
+            "maVach": "5345654",
+            "nhomHang": {
+              "id": 1,
+              "tenNhomHang": "Sữa",
+              "maNhomHang": "SA",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 1,
+              "tenThuongHieu": "test",
+              "xoa": true
+            },
+            "moTa": "<br>",
+            "tichDiem": 1,
+            "maGiamGia": "DSDFRG#$67",
+            "phanTramGiamGia": 10,
+            "urlHinhAnh1": "https://mpec.s3.us-east-2.amazonaws.com/6a6968ab-7dbc-4179-9ec5-b8e3ff84c74b_79201345_701933660645435_7124675989701850887_n.jpg",
+            "urlHinhAnh2": "https://mpec.s3.us-east-2.amazonaws.com/74cc4bba-b5aa-46d1-ac02-1d491740e9fb_109303967_562462221088342_1722814337066552971_n.jpg",
+            "urlHinhAnh3": "https://mpec.s3.us-east-2.amazonaws.com/9c0dcc3f-f3c5-4ec5-aae4-95eed3f77730_106588310_274112240339429_5362122846158410429_n.jpg",
+            "xoa": false
+          },
+          {
+            "id": 2,
+            "ma": "CC-002",
+            "tenHangHoa": "Coca-Cola",
+            "maVach": "64567457",
+            "nhomHang": {
+              "id": 2,
+              "tenNhomHang": "Nước Ngọt",
+              "maNhomHang": "NCP",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 2,
+              "tenThuongHieu": "Coca",
+              "xoa": false
+            },
+            "moTa": "<br>",
+            "tichDiem": 2,
+            "maGiamGia": "FSDF&*^%aa",
+            "phanTramGiamGia": 5,
+            "urlHinhAnh1": "https://mpec.s3.us-east-2.amazonaws.com/ac02c668-7863-48e3-b3dd-696de25d4ead_109303967_562462221088342_1722814337066552971_n.jpg",
+            "urlHinhAnh2": "",
+            "urlHinhAnh3": "",
+            "xoa": false
+          },
+          {
+            "id": 3,
+            "ma": "BB-001",
+            "tenHangHoa": "Bim bim Poca",
+            "maVach": "6457653",
+            "nhomHang": {
+              "id": 3,
+              "tenNhomHang": "Bim Bim",
+              "maNhomHang": "BB",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 3,
+              "tenThuongHieu": "Poca",
+              "xoa": false
+            },
+            "moTa": "<br>",
+            "tichDiem": null,
+            "maGiamGia": "546546$#@%",
+            "phanTramGiamGia": null,
+            "urlHinhAnh1": null,
+            "urlHinhAnh2": "https://mpec.s3.us-east-2.amazonaws.com/5ccdba30-d885-4275-8753-8d61c4dadc0a_109546348_299354194751026_6140548534256832631_n.jpg",
+            "urlHinhAnh3": null,
+            "xoa": false
+          },
+          {
+            "id": 5,
+            "ma": "DA-001",
+            "tenHangHoa": "Dầu ăn Simply",
+            "maVach": "6457658",
+            "nhomHang": {
+              "id": 5,
+              "tenNhomHang": "Dầu ăn",
+              "maNhomHang": "DA",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 6,
+              "tenThuongHieu": "Simply",
+              "xoa": false
+            },
+            "moTa": "Không có",
+            "tichDiem": null,
+            "maGiamGia": null,
+            "phanTramGiamGia": null,
+            "urlHinhAnh1": null,
+            "urlHinhAnh2": null,
+            "urlHinhAnh3": null,
+            "xoa": false
+          },
+          {
+            "id": 6,
+            "ma": "S-002",
+            "tenHangHoa": "Sữa Vinamilk",
+            "maVach": "123123421",
+            "nhomHang": {
+              "id": 1,
+              "tenNhomHang": "Sữa",
+              "maNhomHang": "SA",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 5,
+              "tenThuongHieu": "Vinamilk",
+              "xoa": false
+            },
+            "moTa": "Không có",
+            "tichDiem": 1,
+            "maGiamGia": "4e534245",
+            "phanTramGiamGia": 10,
+            "urlHinhAnh1": null,
+            "urlHinhAnh2": null,
+            "urlHinhAnh3": null,
+            "xoa": false
+          },
+          {
+            "id": 7,
+            "ma": "BB-7787579456",
+            "tenHangHoa": "Bim bim",
+            "maVach": "123123422",
+            "nhomHang": {
+              "id": 1,
+              "tenNhomHang": "Sữa",
+              "maNhomHang": "SA",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 1,
+              "tenThuongHieu": "test",
+              "xoa": true
+            },
+            "moTa": "<br>",
+            "tichDiem": 0,
+            "maGiamGia": "",
+            "phanTramGiamGia": 0,
+            "urlHinhAnh1": "https://cdn.tgdd.vn/Products/Images/2565/220273/bhx/mi-bo-nau-dua-chua-omachi-102-goi-120g-202003311428306753.jpg",
+            "urlHinhAnh2": null,
+            "urlHinhAnh3": null,
+            "xoa": false
+          },
+          {
+            "id": 8,
+            "ma": "S-6509564044",
+            "tenHangHoa": "Banh gao",
+            "maVach": "123123",
+            "nhomHang": {
+              "id": 1,
+              "tenNhomHang": "Sữa",
+              "maNhomHang": "SA",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 1,
+              "tenThuongHieu": "test",
+              "xoa": true
+            },
+            "moTa": "<br>",
+            "tichDiem": 0,
+            "maGiamGia": "",
+            "phanTramGiamGia": 0,
+            "urlHinhAnh1": "https://cdn.tgdd.vn/Products/Images/2565/220273/bhx/mi-bo-nau-dua-chua-omachi-102-goi-120g-202003311428306753.jpg",
+            "urlHinhAnh2": null,
+            "urlHinhAnh3": null,
+            "xoa": false
+          },
+          {
+            "id": 12,
+            "ma": "B-79036083",
+            "tenHangHoa": "bánh g?o",
+            "maVach": "123123423",
+            "nhomHang": {
+              "id": 6,
+              "tenNhomHang": "Bánh",
+              "maNhomHang": "B",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 7,
+              "tenThuongHieu": "AFC",
+              "xoa": false
+            },
+            "moTa": "demo",
+            "tichDiem": 0,
+            "maGiamGia": "",
+            "phanTramGiamGia": 0,
+            "urlHinhAnh1": "75000000afc.jpeg",
+            "urlHinhAnh2": null,
+            "urlHinhAnh3": null,
+            "xoa": false
+          },
+          {
+            "id": 13,
+            "ma": "DA-61639318",
+            "tenHangHoa": "D?u ?n Neptune",
+            "maVach": "123123424",
+            "nhomHang": {
+              "id": 5,
+              "tenNhomHang": "Dầu ăn",
+              "maNhomHang": "DA",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 1,
+              "tenThuongHieu": "test",
+              "xoa": true
+            },
+            "moTa": "",
+            "tichDiem": 0,
+            "maGiamGia": "",
+            "phanTramGiamGia": 0,
+            "urlHinhAnh1": "915000000neptune.jpg",
+            "urlHinhAnh2": null,
+            "urlHinhAnh3": null,
+            "xoa": false
+          },
+          {
+            "id": 14,
+            "ma": "B-43748740",
+            "tenHangHoa": "Bánh Chocopie",
+            "maVach": "123123425",
+            "nhomHang": {
+              "id": 6,
+              "tenNhomHang": "Bánh",
+              "maNhomHang": "B",
+              "xoa": false
+            },
+            "thuongHieu": {
+              "id": 1,
+              "tenThuongHieu": "test",
+              "xoa": true
+            },
+            "moTa": "Bánh r?t ngon :v",
+            "tichDiem": 0,
+            "maGiamGia": "",
+            "phanTramGiamGia": 0,
+            "urlHinhAnh1": "214000000chocopie.jpg",
+            "urlHinhAnh2": null,
+            "urlHinhAnh3": null,
+            "xoa": false
+          }
+        ],
+        "totalPages": 3,
+        "totalElements": 23
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "test_unit":"upload",
+  "case":"existed",
+  "url_file_json": "D:/DATN/23_3/BackEnd_KiotMpec/BackEnd/src/main/resources/data/thuong_hieu/add_Existed.json",
+  "input":[
+    {
+      "tenThuongHieu": "test10",
+      "xoa": false
+    },
+    {
+      "tenThuongHieu": "test11",
+      "xoa": false
+    }
+  ],
+
+  "output":
+  {
+    "message": "existed",
+    "data": "Thương hiệu  đã tồn tại, Vui lòng chọn tên khác"
+  }
+
+}
