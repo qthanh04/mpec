@@ -1,0 +1,7 @@
+# Mac system files
+.DS_Store
+
+# JetBrains IDE files
+*.iml
+.idea/
+
